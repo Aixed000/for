@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffccbc;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fbe9e7;
+  width: 75vw;
+  min-height: 45vw;
+  
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: flex-start;
+  align-items: center;
+  
+  .buttons {
+    
+    display: flex;
+    gap: 2px;
+    justify-content: flex-start;
+    align-items: center;
+    
+    button {
+      outline: none;
+      border: none;
+      box-shadow: none;
+      
+      padding: 5px;
+      
+      border-radius: 2px;
+    }
+    
+    #yes {
+      background: #C5D6BA;
+    }
+    
+    #no {
+      background: #CA9CAC;
+    }
+  }
+  
+  #img {
+    width: 40%;
+    
+    border-radius: 2px;
+  }
+  
+}
