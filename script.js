@@ -1,8 +1,6 @@
 let noteState = 0
 let readPstate = 0
 
-alert("กดแปลภาษาด้วยนะ")
-
 function openNote() {
   
   const cardNote = document.getElementById("img-note")
