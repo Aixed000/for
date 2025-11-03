@@ -1,23 +1,42 @@
 <!DOCTYPE html>
-
-<html lang="th">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
   
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-  <div class="card">
-    <label id="text">รักเรามั้ยย</label>
-    <img id="img" src="rabbit_1.gif">
-    
-    <div id = "but" class="buttons">
-      <button id="yes">Yes</button>
-      <button id="no">No</button>
+  <div class="main-box">
+      <div class="card-note">
+        <div id="img-note" onclick="openNote()">
+          <img id="note-close" src="img/note_4m-close.png">
+          <img id="note-open" src="img/note_4m-open.png">
+          <img id="paper" src="img/paper_4m.png">
+          <img id="fold"  src="img/fold-close.png">
+        </div>
+        <a>Click /\ 🧐</a>
+      </div>
+      
+      <a class="textBold" id="textSlide">Slide down! 👇🤔</a>
+  </div>
+  
+  <div class="main-box" id="box-2">
+    <div class="blank-div">
+      <img id="blank-paper" src="img/blank_paper.png">
+      <div class="paperDiv">
+        <p id="textRead">hi</p>
+        <button class="btn" onclick="readPaper()">next</button>
+        <img id="emoji" src="">
+      </div>
     </div>
   </div>
-
+  
+  <div class="main-box" id="box-3">
+    <h6 id="timer">00:00:00</h6>
+  </div>
 </body>
 </html>
