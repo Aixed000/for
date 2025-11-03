@@ -95,6 +95,10 @@ body {
 
 #box-2 {
   display: none;
+  
+  #slideEnd {
+    visibility: hidden;
+  }
 }
 
 .blank-div {
